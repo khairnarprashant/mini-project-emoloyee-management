@@ -16,9 +16,9 @@ namespace mini_project_emoloyee_management.Controllers
         {
             _DbContext = context;
         }
-        //addd
+        //nb
 
-        [HttpPost]
+        [HttpPost]  //sdsd
         public async Task<IActionResult> AddEmployee(Employee employee)
         {
             try
