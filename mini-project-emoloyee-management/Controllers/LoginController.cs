@@ -15,7 +15,7 @@ namespace mini_project_emoloyee_management.Controllers
 
         public LoginController(ApplicationDbContext context)
         {
-            _context = context;
+            _context = context; //add new chege git
         }
 
         [HttpPost]
