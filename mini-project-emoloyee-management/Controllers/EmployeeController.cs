@@ -16,7 +16,7 @@ namespace mini_project_emoloyee_management.Controllers
         {
             _DbContext = context;
         }
-        //nb
+        //nb  git chenge
 
         [HttpPost]  //sdsd
         public async Task<IActionResult> AddEmployee(Employee employee)
