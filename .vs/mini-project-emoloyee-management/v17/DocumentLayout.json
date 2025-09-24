@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -31,16 +27,20 @@
       "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\controllers\\deparmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|solutionrelative:mini-project-emoloyee-management\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6CC831C-C0EF-4B96-B5F5-23AD024BC4BB}|mini-project-emoloyee-management\\mini-project-emoloyee-management.csproj|d:\\newgen softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,41 +93,34 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Models\\Login.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Models\\Login.cs",
               "ToolTip": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Models\\Login.cs",
               "RelativeToolTip": "mini-project-emoloyee-management\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:02:31.799Z"
+              "WhenOpened": "2025-09-18T12:02:31.799Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "mini-project-emoloyee-management\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAA9wGsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowGQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T20:06:23.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Data\\ApplicationDbContext.cs",
@@ -140,19 +133,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "DeparmentController.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\DeparmentController.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Controllers\\DeparmentController.cs",
               "ToolTip": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\DeparmentController.cs",
               "RelativeToolTip": "mini-project-emoloyee-management\\Controllers\\DeparmentController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:57:14.959Z"
+              "WhenOpened": "2025-09-18T12:57:14.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Models\\LoginDto.cs",
@@ -160,37 +154,38 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Models\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:35:47.559Z"
+              "WhenOpened": "2025-09-18T12:35:47.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LeaveController.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\LeaveController.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Controllers\\LeaveController.cs",
               "ToolTip": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\LeaveController.cs",
               "RelativeToolTip": "mini-project-emoloyee-management\\Controllers\\LeaveController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T11:57:04.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Controllers\\LoginController.cs",
               "ToolTip": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Controllers\\LoginController.cs",
               "RelativeToolTip": "mini-project-emoloyee-management\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFEAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T12:00:28.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\appsettings.json",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\appsettings.json",
@@ -203,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "LeaveRequest.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Models\\LeaveRequest.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Models\\LeaveRequest.cs",
@@ -211,11 +206,12 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Models\\LeaveRequest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:36:51.3Z"
+              "WhenOpened": "2025-09-21T11:36:51.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\Newgen Softech\\project\\mini-project-emoloyee-management\\mini-project-emoloyee-management\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "mini-project-emoloyee-management\\Models\\Employee.cs",
@@ -223,7 +219,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Models\\Employee.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:24:43.719Z"
+              "WhenOpened": "2025-09-18T12:24:43.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -235,7 +232,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T10:05:22.297Z"
+              "WhenOpened": "2025-09-18T10:05:22.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -247,7 +245,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T18:05:05.733Z"
+              "WhenOpened": "2025-09-20T18:05:05.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -259,7 +258,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Migrations\\20250921121856_Leavetable.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:18:57.378Z"
+              "WhenOpened": "2025-09-21T12:18:57.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -271,7 +271,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Migrations\\20250920180825_Addsalary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T18:08:26.407Z"
+              "WhenOpened": "2025-09-20T18:08:26.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -295,7 +296,8 @@
               "RelativeToolTip": "mini-project-emoloyee-management\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:38:54.409Z"
+              "WhenOpened": "2025-09-18T12:38:54.409Z",
+              "EditorCaption": ""
             }
           ]
         }
