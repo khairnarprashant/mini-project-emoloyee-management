@@ -79,7 +79,7 @@ namespace mini_project_emoloyee_management.Controllers
                 signingCredentials: creds
             );
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            return new JwtSecurityTokenHandler().WriteToken(token);  // add new chenge
         }
     }
 }
