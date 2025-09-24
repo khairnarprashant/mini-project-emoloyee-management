@@ -158,9 +158,88 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "mini_project_emoloyee_management.Controllers.LeaveController",
+    "Method": "GetAllLeaves",
+    "RelativePath": "api/Leave/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mini_project_emoloyee_management.Controllers.LeaveController",
+    "Method": "ApplyLeave",
+    "RelativePath": "api/Leave/Apply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leave",
+        "Type": "mini_project_emoloyee_management.Models.LeaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mini_project_emoloyee_management.Controllers.LeaveController",
+    "Method": "ApproveOrRejectLeave",
+    "RelativePath": "api/Leave/Approve/{leaveId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leaveId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "decision",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mini_project_emoloyee_management.Controllers.LeaveController",
+    "Method": "GetLeavesByEmployee",
+    "RelativePath": "api/Leave/ByEmployee/{empId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "mini_project_emoloyee_management.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "mini_project_emoloyee_management.Models.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "mini_project_emoloyee_management.Controllers.LoginController",
+    "Method": "Register",
+    "RelativePath": "api/Login/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

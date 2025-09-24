@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using mini_project_emoloyee_management.Data;
@@ -6,6 +7,8 @@ using mini_project_emoloyee_management.Models;
 
 namespace mini_project_emoloyee_management.Controllers
 {
+    [Authorize]
+
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
@@ -16,7 +19,6 @@ namespace mini_project_emoloyee_management.Controllers
         {
             _DbContext = context;
         }
-
         [HttpPost] 
         public async Task<IActionResult> AddEmployee(Employee employee)
         {
@@ -45,9 +47,6 @@ namespace mini_project_emoloyee_management.Controllers
 
             return Ok(employees);
         }
-
-
-
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
@@ -80,6 +79,7 @@ namespace mini_project_emoloyee_management.Controllers
             existingEmp.Address = updatedEmployee.Address;
             existingEmp.JoiningDate = updatedEmployee.JoiningDate;
             existingEmp.ResignationDate  = updatedEmployee.ResignationDate;
+            existingEmp.salary = updatedEmployee.salary;
 
             await _DbContext.SaveChangesAsync();
 
@@ -89,8 +89,6 @@ namespace mini_project_emoloyee_management.Controllers
 
             return Ok(empWithDept);
         }
-
-        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(int id)
         {

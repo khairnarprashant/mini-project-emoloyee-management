@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mini-project-emoloyee-management")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edf0d20e0ee3c624b46122e85aa45a1c7e0af43a")]
 [assembly: System.Reflection.AssemblyProductAttribute("mini-project-emoloyee-management")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mini-project-emoloyee-management")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

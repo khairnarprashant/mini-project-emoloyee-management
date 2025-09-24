@@ -19,6 +19,9 @@ namespace mini_project_emoloyee_management.Models
 
         [MaxLength(50)]
         public string Designation { get; set; }
+
+        public int salary { get; set; }
+
         [MaxLength(50)]
         public string Email { get; set; }
 

@@ -169,3 +169,5 @@ D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee
 D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee-management\obj\Debug\net8.0\mini-project-emoloyee-management.pdb
 D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee-management\obj\Debug\net8.0\mini-project-emoloyee-management.genruntimeconfig.cache
 D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee-management\obj\Debug\net8.0\ref\mini-project-emoloyee-management.dll
+D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee-management\obj\Debug\net8.0\mini-project-emoloyee-management.sourcelink.json
+D:\Newgen Softech\project\mini-project-emoloyee-management\mini-project-emoloyee-management\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using mini_project_emoloyee_management.Data;
@@ -16,14 +17,13 @@ namespace mini_project_emoloyee_management.Controllers
             this._DbConext = dbContext;
         }
 
-        
         [HttpGet]
         public async Task<IActionResult> List()
         {
             var det = await _DbConext.Departments.ToListAsync();
             return Ok(det);
         }
-       
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Create(Department department)
         {
@@ -36,6 +36,7 @@ namespace mini_project_emoloyee_management.Controllers
             await _DbConext.SaveChangesAsync();
             return Ok();
         }
+        [Authorize(Roles = "Admin")]
         [HttpGet("{id}")]
         public IActionResult GetDepartment(int id)
         {
@@ -44,7 +45,7 @@ namespace mini_project_emoloyee_management.Controllers
                 return NotFound(); 
             return Ok(dept);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public IActionResult UpdateDepartment(int id, [FromBody] Department department)
         {
@@ -55,7 +56,7 @@ namespace mini_project_emoloyee_management.Controllers
             _DbConext.SaveChanges();
             return NoContent();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

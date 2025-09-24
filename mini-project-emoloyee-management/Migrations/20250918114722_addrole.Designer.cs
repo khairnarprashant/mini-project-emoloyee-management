@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using mini_project_emoloyee_management.Data;
 
@@ -11,9 +12,11 @@ using mini_project_emoloyee_management.Data;
 namespace mini_project_emoloyee_management.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250918114722_addrole")]
+    partial class addrole
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -82,55 +85,11 @@ namespace mini_project_emoloyee_management.Migrations
                     b.Property<DateTime?>("ResignationDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("salary")
-                        .HasColumnType("int");
-
                     b.HasKey("EmpId");
 
                     b.HasIndex("DeptId");
 
                     b.ToTable("Employees");
-                });
-
-            modelBuilder.Entity("mini_project_emoloyee_management.Models.LeaveRequest", b =>
-                {
-                    b.Property<int>("LeaveId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LeaveId"));
-
-                    b.Property<DateTime>("AppliedOn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("ApprovedBy")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmpId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("LeaveType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Reason")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("LeaveId");
-
-                    b.HasIndex("EmpId");
-
-                    b.ToTable("LeaveRequests");
                 });
 
             modelBuilder.Entity("mini_project_emoloyee_management.Models.Login", b =>
@@ -167,17 +126,6 @@ namespace mini_project_emoloyee_management.Migrations
                         .IsRequired();
 
                     b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("mini_project_emoloyee_management.Models.LeaveRequest", b =>
-                {
-                    b.HasOne("mini_project_emoloyee_management.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmpId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
                 });
 #pragma warning restore 612, 618
         }
