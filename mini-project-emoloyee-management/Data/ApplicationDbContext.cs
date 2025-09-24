@@ -11,7 +11,7 @@ namespace mini_project_emoloyee_management.Data
         }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
-        public DbSet<LeaveRequest> LeaveRequests { get; set; }
+        public DbSet<LeaveRequest> LeaveRequests { get; set; }  //
         public DbSet<Login> Users { get; set; }
 
     }
