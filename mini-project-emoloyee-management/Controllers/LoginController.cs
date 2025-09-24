@@ -40,7 +40,8 @@ namespace mini_project_emoloyee_management.Controllers
             return Ok(new { message = "User registered successfully" });
         }
 
-        [HttpPost]
+        [HttpPost] 
+        // changes 
         public IActionResult Login([FromBody] LoginDto req)
         {
             var user = _context.Users.FirstOrDefault(u => u.Username == req.Username && u.Password == req.Password);
